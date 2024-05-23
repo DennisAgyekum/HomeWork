@@ -450,7 +450,11 @@ span {
         flex-wrap: wrap-reverse;
         overflow-x: wrap;  
     }
-        
+
+   .home h1 {
+        font-size: 40px;
+    }
+          
     .img-box img {
         border-radius: 50%;
         width: 300px;
