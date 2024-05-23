@@ -448,10 +448,13 @@ span {
 
 
 @media screen and (max-width: 500px) {
-    .home {
+   
+  
+  .home {
         display: inline-block;
         flex-wrap: wrap-reverse;
-        overflow-x: wrap;  
+        overflow-x: wrap;
+        height: inherit;
     }
     .home h1 {
         font-size: 40px;
