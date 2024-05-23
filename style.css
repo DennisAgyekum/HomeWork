@@ -104,7 +104,7 @@ span {
 }
 
 .btn-box {
-  width: 345px;
+  width: 283px;
   display: flex;
   justify-content: space-around;
   gap: 2rem;
@@ -459,6 +459,10 @@ span {
     .home h1 {
         font-size: 40px;
     }
+
+  .btn-1 {
+        width: 100%;
+      }
         
     .img-box img {
         border-radius: 50%;
