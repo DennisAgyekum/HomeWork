@@ -319,7 +319,8 @@ span {
 .contact-form {
   background-color: black;
   width: 100%;
-  min-height: 100vh;
+  overflow: hidden;
+ 
 }
 
 .contact-form h2 {
@@ -454,7 +455,6 @@ span {
         display: inline-block;
         flex-wrap: wrap-reverse;
         overflow-x: wrap;
-        height: inherit;
     }
     .home h1 {
         font-size: 40px;
