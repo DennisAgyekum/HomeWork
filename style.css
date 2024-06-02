@@ -104,10 +104,17 @@ span {
 }
 
 .btn-box {
+
+  w.btn-box {
+  width: 345px;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem; 
+}
   width: 283px;
   display: flex;
   justify-content: space-around;
-  gap: 2rem;
+n
   
 }
 
@@ -141,6 +148,12 @@ span {
   color: #0a762c;
   border: 2px solid black;
 }
+.img-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
 .img-box {
     display: flex;
     justify-content: space-around;
@@ -449,6 +462,28 @@ span {
 
 
 @media screen and (max-width: 500px) {
+
+    .home {
+        display: inline-block;
+        flex-wrap: wrap-reverse;
+        overflow-x: wrap;  
+    }
+
+   .home h1 {
+        font-size: 40px;
+    }
+          
+    .img-box img {
+        border-radius: 50%;
+        width: 300px;
+        margin-top: 5px;
+        align-items: center;
+        
+      }    
+
+    nav {
+        display: inline-block;
+    }
    
   
   .home {
@@ -481,5 +516,6 @@ span {
             justify-content: center;
             width: 100%;
     }
+
 
 }
